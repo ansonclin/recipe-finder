@@ -12,10 +12,10 @@ A web app where you enter ingredients and macro goals (protein, calories, etc.),
 **Goal:** Get a working skeleton with a backend and frontend talking to each other.
 
 Tasks:
-- [ ] Initialize the Node/Express backend (`/server`)
+- [x] Initialize the Node/Express backend (`/server`)
 - [ ] Initialize the React frontend (`/client`)
 - [ ] Connect them with a simple test API call (frontend calls backend, backend returns "hello")
-- [ ] Set up `.env` for secrets (API keys)
+- [x] Set up `.env` for secrets (API keys)
 
 **What you'll learn:** How a full-stack app is structured, what npm/package.json does, what a REST API is, how frontend and backend communicate.
 

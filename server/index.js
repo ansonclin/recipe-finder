@@ -2,8 +2,8 @@ require('dotenv').config()
 const express = require('express');
 const app = express();
 
-app.get('/', (req,res) => {
-    res.send('Hello from the backend!');
+app.get('/api/hello', (req,res) => {
+    res.json( {message:'Hello from the backend!'});
 });
 
 
