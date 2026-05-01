@@ -25,10 +25,10 @@ Tasks:
 **Goal:** Backend can search YouTube for recipe videos given a list of ingredients.
 
 Tasks:
-- [ ] Get a YouTube Data API v3 key from Google Cloud Console
-- [ ] Build a `/api/search` endpoint in Express that accepts ingredients and calls the YouTube API
-- [ ] Return the top N video results (title, thumbnail, URL, description)
-- [ ] Test the endpoint with a tool like Postman or Thunder Client
+- [x] Get a YouTube Data API v3 key from Google Cloud Console
+- [x] Build a `/api/search` endpoint in Express that accepts ingredients and calls the YouTube API
+- [x] Return the top N video results (title, thumbnail, URL, description)
+- [x] Test the endpoint with a tool like Postman or Thunder Client
 
 **What you'll learn:** How to call third-party APIs from a backend, how to use environment variables safely, how Express routes and request/response work.
 
@@ -38,9 +38,9 @@ Tasks:
 **Goal:** Use the Claude API to summarize each video and estimate its macros.
 
 Tasks:
-- [ ] Get a Claude API key from console.anthropic.com
-- [ ] Build a `/api/analyze` endpoint that takes video metadata (title, description) and returns a summary + estimated macros
-- [ ] Rank results by how well they match the user's macro goals
+- [x] Get a Claude API key from console.anthropic.com
+- [x] Build a `/api/analyze` endpoint that takes video metadata (title, description) and returns a summary + estimated macros
+- [x] Rank results by how well they match the user's macro goals
 
 **What you'll learn:** How to call an LLM API, how to write effective prompts, what "tokens" are, how to rank/sort structured data.
 
