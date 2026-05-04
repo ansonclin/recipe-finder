@@ -42,8 +42,6 @@ Tasks:
 - [x] Build a `/api/analyze` endpoint that takes video metadata (title, description) and returns a summary + estimated macros
 - [x] Rank results by how well they match the user's macro goals
 
-**What you'll learn:** How to call an LLM API, how to write effective prompts, what "tokens" are, how to rank/sort structured data.
-
 ---
 
 ### Phase 4 — React Frontend (Basic)
@@ -53,8 +51,6 @@ Tasks:
 - [ ] Build an input form (ingredients list, protein/calorie goals)
 - [ ] Call the backend search endpoint on form submit
 - [ ] Display video cards (thumbnail, title, estimated macros, summary)
-
-**What you'll learn:** React components, state (`useState`), how to fetch data from an API (`fetch` / `axios`), how to render lists of data.
 
 ---
 
@@ -67,19 +63,6 @@ Tasks:
 - [ ] Style with Tailwind CSS or a component library (e.g. shadcn/ui)
 - [ ] Add sorting/filtering by macro values
 
-**What you'll learn:** Conditional rendering, CSS utility classes, UX best practices.
-
----
-
-### Phase 6 — Deployment
-**Goal:** Put the app on the internet so others can use it.
-
-Tasks:
-- [ ] Deploy the backend to Render or Railway (free tiers)
-- [ ] Deploy the frontend to Vercel or Netlify
-- [ ] Point them at each other with environment variables
-
-**What you'll learn:** What deployment means, how environment variables work in production, CORS.
 
 ---
 
@@ -100,29 +83,3 @@ Tasks:
 ```
 
 ---
-
-## Prerequisites (install before Phase 1)
-
-- [Node.js](https://nodejs.org) (v18 or higher) — check with `node -v`
-- [npm](https://npmjs.com) — comes with Node, check with `npm -v`
-- A code editor (VS Code — you likely have this)
-- [Git](https://git-scm.com) — check with `git -v`
-
----
-
-## API Keys You'll Need
-
-| Service | Where to get it | Phase needed |
-|---|---|---|
-| YouTube Data API v3 | [Google Cloud Console](https://console.cloud.google.com) | Phase 2 |
-| Claude API | [console.anthropic.com](https://console.anthropic.com) | Phase 3 |
-
----
-
-## How to Use This README
-
-Each phase maps to a separate chat session. When starting a new chat, paste in this README and say something like:
-
-> "I'm working on my recipe finder app. Here's my README. I'm ready to start Phase 2. My Phase 1 is done and here's what my folder looks like: [paste structure]"
-
-This gives the AI full context without repeating yourself.
